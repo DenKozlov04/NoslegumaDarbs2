@@ -12,6 +12,11 @@ Atarhivējiet draiveri un ievietojiet tikai .exe failu mapē EdgeDriver projekt�
 Nepieciešams uzstādīts Python ar *versiju 3.11.9 (stabilākā versija)*. Lejupielādējiet to no oficiālās mājaslapas (https://www.python.org/downloads/windows/).
 Instalācijā atzīmējiet -> _Add Python to PATH_ -> _Install now_
 
+Uzrakstiet terminalā 2 komandas(pēc Python instalēšanas): 
+1)pip install chromedriver-autoinstaller
+2)pip install selenium
+
+ 
 Lai komanda 1 noteikti darbotos, šajās vietās jāievada lietotājvārds (By.ID, "IDToken1").send_keys("") un parole (By.ID, "IDToken2").send_keys("")
 
 ## projekta paraksts
